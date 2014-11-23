@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Taylorandfrancis Suite">
+
+
+<test name="SignIn">
+    <classes>
+        <class name="tests.SignInTest" ></class>  
+    </classes>
+</test>
+
+<test name="BrowseTest Test">
+    <classes>
+        <class name="tests.BrowseTest" ></class>  
+    </classes>
+</test>
+<test name="DatabasesBrowseTest Test">
+    <classes>
+        <class name="tests.DatabasesBrowseTest" ></class>  
+    </classes>
+</test>
+
+
+
+</suite>

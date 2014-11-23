@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Taylorandfrancis Suite]">
+  <test name="SignIn(failed)">
+    <classes>
+      <class name="tests.DatabasesBrowseTest">
+        <methods>
+          <include name="testTaylor"/>
+        </methods>
+      </class> <!-- tests.DatabasesBrowseTest -->
+      <class name="tests.SignInTest">
+        <methods>
+          <include name="signinTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SignInTest -->
+    </classes>
+  </test> <!-- SignIn(failed) -->
+  <test name="BrowseTest Test(failed)">
+    <classes>
+      <class name="tests.DatabasesBrowseTest">
+        <methods>
+          <include name="testTaylor"/>
+        </methods>
+      </class> <!-- tests.DatabasesBrowseTest -->
+      <class name="tests.BrowseTest">
+        <methods>
+          <include name="browseTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.BrowseTest -->
+    </classes>
+  </test> <!-- BrowseTest Test(failed) -->
+  <test name="DatabasesBrowseTest Test(failed)">
+    <classes>
+      <class name="tests.DatabasesBrowseTest">
+        <methods>
+          <include name="databasesbrowseTest" invocation-numbers="0"/>
+          <include name="testTaylor"/>
+        </methods>
+      </class> <!-- tests.DatabasesBrowseTest -->
+    </classes>
+  </test> <!-- DatabasesBrowseTest Test(failed) -->
+</suite> <!-- Failed suite [Taylorandfrancis Suite] -->
